@@ -1,7 +1,10 @@
 import math
 import numpy as np
 import pandas as pd
+
 import csv
+# importing all the functions done 
+
 print("FUNCTION : START Creating a CSV file")
 x = np.arange(1, 101, 1)
 file = open('data.csv','w', newline = "")
